@@ -40,7 +40,7 @@ function downloadFile(req,callback) {
     params.ext = ext[ext.length-1].toLowerCase();
     params.file = params.id;
     params.mime = 'image/'+params.ext;
-    params.save = __dirname+"/temp/"+params.file+"."+params.ext;
+    params.save = "temp/"+params.file+"."+params.ext;
 
     console.log(params);
 
