@@ -13,16 +13,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "Cantrip": "git+https://github.com/KriekApps/Cantrip.git",
     "aws-sdk": "^2.0.19",
     "busboy": "^0.2.9",
-    "cantrip-auth": "git+https://github.com/borlaym/cantrip-auth.git",
     "jpegorientation": "^1.0.2",
     "lodash": "^2.4.1",
     "lwip": "0.0.5",
     "request": "^2.45.0"
   },
   "devDependencies": {
+    "Cantrip": "git+https://github.com/KriekApps/Cantrip.git",
     "load-grunt-tasks": "~0.4.0",
     "grunt": "~0.4.4",
     "grunt-nodemon": "~0.2.1",
