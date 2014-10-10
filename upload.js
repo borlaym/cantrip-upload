@@ -124,7 +124,7 @@ function imageChain(image,exe,callback) {
 	}
 	else {
 		exe.params.file = exe.file+"_"+exe.params.file;
-		exe.params.save = __dirname+"/temp/"+exe.params.file+"."+exe.params.ext;
+		exe.params.save = "temp/"+exe.params.file+"."+exe.params.ext;
 	    image.writeFile(exe.params.save, function(err){
 	    	exe.params.key = "images/"+exe.params.file+"."+exe.params.ext;
 	    	amazon.upload(exe.params,function(r) {
@@ -153,7 +153,7 @@ function saveFile(req,callback) {
     	params.ext = ext[ext.length-1].toLowerCase();
     	params.file = params.id;
     	params.mime = mimetype;
-    	params.save = __dirname+"/temp/"+params.file+"."+params.ext;
+    	params.save = "temp/"+params.file+"."+params.ext;
 
     	file.pipe(fs.createWriteStream(params.save));
     });
