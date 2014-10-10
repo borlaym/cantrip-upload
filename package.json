@@ -1,5 +1,5 @@
 {
-  "name": "milano",
+  "name": "cantrip-upload",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.com:kriek-apps/milano.git"
+    "url": "git@gitlab.com:borlaym/cantrip-upload.git"
   },
   "author": "",
   "license": "ISC",
