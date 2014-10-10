@@ -1,7 +1,7 @@
 var Cantrip = require("Cantrip");
 var auth = require("cantrip-auth");
 var fs = require("fs");
-var upload = require("cantrip-upload");
+var upload = require("./index.js");
 
 Cantrip.use(auth);
 
